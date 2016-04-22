@@ -1,6 +1,6 @@
 /**
  * Víctor García Aldariz & Sergio Ceán
- * @author dam125
+ * @author dam125 &dam127
  */
 public class Calculadora {
     public int suma(int x, int y){
@@ -8,5 +8,8 @@ public class Calculadora {
     }
     public int resta(int x,int y){
         return x-y;
+    }
+    public double multiplicacion(double x,double y){
+        return x*y;
     }
 }
